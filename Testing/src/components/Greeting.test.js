@@ -2,6 +2,8 @@ import { render , screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import Greeting from "./Greeting";
 
+beforeEach()
+afterEach();
 describe('Greeting Component', ()=>{
 
     test('renders Hello World as a text',()=>{
